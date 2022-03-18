@@ -1,5 +1,5 @@
 ---
-title: Senior-Year Project Offers
+title: Current Project Offers
 menu:
   main:
     name: Project Offers
