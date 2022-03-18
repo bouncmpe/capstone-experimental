@@ -10,7 +10,7 @@ slug:
 
 collections:
   - name: 'offered'
-    label: 'Project Offerings'
+    label: 'Project Offers'
     folder: 'content/offered'
     create: true
     slug: '{{date}}-offer-{{title}}'
