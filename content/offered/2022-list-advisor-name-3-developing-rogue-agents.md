@@ -2,7 +2,7 @@
 type: project-offer
 title: Developing Rogue Agents
 advisor:
-  - advisor.name.3
+  - dogan.ulus
 tags:
   - python
   - testing
