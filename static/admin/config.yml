@@ -17,7 +17,7 @@ collections:
   - name: 'senior-project-offer'
     label: 'Senior Project Offers'
     label_singular: 'Senior Project Offer'
-    folder: 'content/offered'
+    folder: 'content/offers'
     create: true
     slug: '{{year}}-{{advisor}}-{{title}}'
     editor:
