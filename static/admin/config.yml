@@ -4,6 +4,8 @@ backend:
   auth_scope: public_repo
   branch: main
   open_authoring: true
+
+search: false
 publish_mode: editorial_workflow
 media_folder: assets/images/uploads
 public_folder: /images/uploads
@@ -17,7 +19,7 @@ collections:
     label_singular: 'Project Offer'
     folder: 'content/offered'
     create: true
-    slug: '{{advisor}}-offer-{{title}}'
+    slug: '{{year}}-{{advisor}}-{{title}}'
     editor:
       preview: false
     filter: {field: "type", value: "project-offer"}
