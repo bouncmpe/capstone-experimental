@@ -30,11 +30,7 @@ collections:
           name: 'advisor', 
           widget: 'select', 
           multiple: true,
-          options: [
-            {label: "Özlem Durmaz İncel", value: "ozlem.durmaz"},
-            {label: "Doğan Ulus", value: "dogan.ulus"},
-            {label: "Suzan Üsküdarlı", value: "suzan.uskudarli"}
-          ]
+          options: ["Özlem Durmaz İncel", "Doğan Ulus", "Suzan Üsküdarlı"]
         }
       - { label: 'Tags', name: 'tags', widget: 'list', label_singular: 'tag', field: { label: "Tag", name: "tag", widget: "string" }}
       - { label: 'Abstract', name: 'body', widget: 'markdown', default: ''}
