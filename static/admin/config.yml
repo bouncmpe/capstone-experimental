@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: bouncmpe/capstone-experimental
+  name: git-gateway
   branch: main
 media_folder: assets/images/uploads
 public_folder: /images/uploads
