@@ -1,0 +1,34 @@
+backend:
+  name: git-gateway
+  branch: main
+
+slug:
+  encoding: "ascii"
+  clean_accents: true
+
+collections:
+  - name: 'offered'
+    label: 'Project Offerings'
+    folder: 'content/offered'
+    create: true
+    slug: '{{date}}-offer-{{title}}'
+    editor:
+      preview: false
+    filter: {field: "type", value: "news"}
+    fields:
+      - { label: "Type", name: "type", widget: "hidden", default: "project-offer"}
+      - { label: 'Title', name: 'title', widget: 'string'}
+      - { label: 'Subtitle', name: 'subtitle', widget: 'string'}
+      - { label: 'Advisor', 
+          name: 'advisor', 
+          widget: 'select', 
+          multiple: true,
+          options: [
+            {label: "Advisor Name 1", value: "advisor-name-1"},
+            {label: "Advisor Name 2", value: "advisor-name-2"},
+            {label: "Advisor Name 3", value: "advisor-name-3"}
+          ]
+        }
+      - { label: 'Abstract', name: 'body', widget: 'markdown', default: ''}
+
+
