@@ -14,6 +14,7 @@ slug:
 collections:
   - name: 'offered'
     label: 'Project Offers'
+    label_singular: 'Project Offer'
     folder: 'content/offered'
     create: true
     slug: '{{date}}-offer-{{title}}'
@@ -34,7 +35,7 @@ collections:
             {label: "Advisor Name 3", value: "advisor-name-3"}
           ]
         }
-      - { label: 'Tags', name: 'tags', widget: 'list', allow_add: false, label_singular: 'tag'}
+      - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true, label_singular: 'tag'}
       - { label: 'Abstract', name: 'body', widget: 'markdown', default: ''}
 
 
