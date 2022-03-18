@@ -31,9 +31,9 @@ collections:
           widget: 'select', 
           multiple: true,
           options: [
-            {label: "Advisor Name 1", value: "advisor.name.1"},
-            {label: "Advisor Name 2", value: "advisor.name.2"},
-            {label: "Advisor Name 3", value: "advisor.name.3"}
+            {label: "Özlem Durmaz İncel", value: "ozlem.durmaz"},
+            {label: "Doğan Ulus", value: "dogan.ulus"},
+            {label: "Suzan Üsküdarlı", value: "suzan.uskudarli"}
           ]
         }
       - { label: 'Tags', name: 'tags', widget: 'list', label_singular: 'tag', field: { label: "Tag", name: "tag", widget: "string" }}
