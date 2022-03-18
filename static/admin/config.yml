@@ -4,7 +4,7 @@ backend:
   auth_scope: public_repo
   branch: main
   open_authoring: true
-  publish_mode: editorial_workflow
+publish_mode: editorial_workflow
 media_folder: assets/images/uploads
 public_folder: /images/uploads
 slug:
