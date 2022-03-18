@@ -13,12 +13,14 @@ module:
 DefaultContentLanguage: en
 
 permalinks:
+  offer: /n/:slug/
+  project: /p/:slug/
   page: /:slug/
 
 
 params:
   mainSections:
-    - projects
+    - project
   featuredImageField: image
   rssFullContent: true
   favicon:

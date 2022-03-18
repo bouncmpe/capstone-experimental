@@ -1,8 +1,8 @@
 ---
-title: Offered Projects
+title: Senior-Year Project Offers
 menu:
   main:
-    name: Offered Projects
+    name: Project Offers
     weight: 100
     params:
       icon: hash

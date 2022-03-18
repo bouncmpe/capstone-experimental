@@ -14,25 +14,24 @@ slug:
   clean_accents: true
 
 collections:
-  - name: 'offered'
-    label: 'Project Offers'
-    label_singular: 'Project Offer'
+  - name: 'senior-project-offer'
+    label: 'Senior Project Offers'
+    label_singular: 'Senior Project Offer'
     folder: 'content/offered'
     create: true
     slug: '{{year}}-{{advisor}}-{{title}}'
     editor:
       preview: false
-    filter: {field: "type", value: "project-offer"}
+    filter: {field: "type", value: "senior-project-offer"}
     fields:
-      - { label: "Type", name: "type", widget: "hidden", default: "project-offer"}
+      - { label: "Type", name: "type", widget: "hidden", default: "senior-project-offer"}
       - { label: 'Title', name: 'title', widget: 'string'}
       - { label: 'Advisor', 
           name: 'advisor', 
           widget: 'select', 
           multiple: true,
-          options: ["Özlem Durmaz İncel", "Doğan Ulus", "Suzan Üsküdarlı"]
+          options: ["Özlem Durmaz Incel", "Doğan Ulus", "Suzan Üsküdarlı"]
         }
-      - { label: 'Tags', name: 'tags', widget: 'list', label_singular: 'tag', field: { label: "Tag", name: "tag", widget: "string" }}
       - { label: 'Abstract', name: 'body', widget: 'markdown', default: ''}
 
 
