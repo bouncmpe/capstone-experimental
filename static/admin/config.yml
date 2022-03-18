@@ -27,7 +27,7 @@ collections:
       - { label: "Type", name: "type", widget: "hidden", default: "senior-project-offer"}
       - { label: 'Title', name: 'title', widget: 'string'}
       - { label: 'Advisors', 
-          name: 'advisors', 
+          name: 'authors', 
           widget: 'select', 
           multiple: true,
           options: ["Ozlem Durmaz Incel", "Dogan Ulus", "Suzan Uskudarli"]
