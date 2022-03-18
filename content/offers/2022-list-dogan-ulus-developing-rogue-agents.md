@@ -1,8 +1,10 @@
 ---
 type: senior-project-offer
 title: Developing Rogue Agents
-advisors: 
+authors: 
   - Dogan Ulus
-
+categories: [
+  "Project Offer"
+]
 ---
 Lorem Ipsum

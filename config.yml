@@ -28,7 +28,7 @@ params:
   favicon:
 
   footer:
-    since: 2022
+    since: 2016
     customText: 
  
   dateFormat:
@@ -96,7 +96,12 @@ related:
   enabled: false
 
 menu:
-  main: []
+  main: 
+    - name: Project Offers
+      weight: 100
+      url: categories/project-offer
+      params:
+        icon: hash
   social:
     - identifier: home
       name: Home

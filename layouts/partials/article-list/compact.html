@@ -5,14 +5,16 @@
                 {{- .Title -}}
             </h2>
             <footer class="article-time">
-                <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'>
-                    {{with .Params.advisor }}
+                {{ with .Params.authors }}
+                <span>
+                    {{with . }}
                     by {{index . 0}}
                     {{range (after 1 .)}}
                     and {{ . }}
                     {{end}}
                     {{end}}
-                </time>
+                </span>
+                {{ end }}
             </footer>
         </div>
 
