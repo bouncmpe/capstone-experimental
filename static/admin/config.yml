@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: bouncmpe/capstone-experimental
+  auth_scope: user
   branch: main
 media_folder: assets/images/uploads
 public_folder: /images/uploads
