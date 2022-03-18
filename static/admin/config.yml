@@ -3,6 +3,8 @@ backend:
   repo: bouncmpe/capstone-experimental
   auth_scope: public_repo
   branch: main
+  open_authoring: true
+  publish_mode: editorial_workflow
 media_folder: assets/images/uploads
 public_folder: /images/uploads
 slug:
@@ -32,6 +34,7 @@ collections:
             {label: "Advisor Name 3", value: "advisor-name-3"}
           ]
         }
+      - { label: 'Tags', name: 'tags', widget: 'list', allow_add: false, label_singular: 'tag'}
       - { label: 'Abstract', name: 'body', widget: 'markdown', default: ''}
 
 
