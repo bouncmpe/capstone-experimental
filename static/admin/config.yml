@@ -19,18 +19,18 @@ collections:
     label_singular: 'Senior Project Offer'
     folder: 'content/offers'
     create: true
-    slug: '{{year}}-{{advisor}}-{{title}}'
+    slug: '{{year}}-{{title}}'
     editor:
       preview: false
     filter: {field: "type", value: "senior-project-offer"}
     fields:
       - { label: "Type", name: "type", widget: "hidden", default: "senior-project-offer"}
       - { label: 'Title', name: 'title', widget: 'string'}
-      - { label: 'Advisor', 
-          name: 'advisor', 
+      - { label: 'Advisors', 
+          name: 'advisors', 
           widget: 'select', 
           multiple: true,
-          options: ["Özlem Durmaz Incel", "Doğan Ulus", "Suzan Üsküdarlı"]
+          options: ["Ozlem Durmaz Incel", "Dogan Ulus", "Suzan Uskudarli"]
         }
       - { label: 'Abstract', name: 'body', widget: 'markdown', default: ''}
 
